@@ -4,15 +4,13 @@ This project models and compares two customer handling systems in an automotive 
 
 ## 📁 Project Structure
 
-```
-├── Simulation 1/
-│ ├── Model1.doe # Arena model for the original system (3 separate queues)
-│ └── Simulation 1 Report.pdf # Output report after running Simulation 1
-├── Simulation 2/
-│ ├── Model2.doe # Arena model for the improved system (single queue, 3 flexible clerks)
-│ └── Simulation 2 Report.pdf # Output report after running Simulation 2
-└── Analysis Report.docx # Summary comparing both simulations with conclusions
-```
+1. Simulation 1/
+    1. Model1.doe # Arena model for the original system (3 separate queues)
+    2. Simulation 1 Report.pdf # Output report after running Simulation 1
+2. Simulation 2/
+    1. Model2.doe # Arena model for the improved system (single queue, 3 flexible clerks)
+    2. Simulation 2 Report.pdf # Output report after running Simulation 2
+3. Analysis Report.docx # Summary comparing both simulations with conclusions
 
 ## 🧪 Simulation Overview
 
