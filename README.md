@@ -5,7 +5,7 @@ This project models and compares two customer handling systems in an automotive 
 ## 🧪 Simulation Overview
 
 ### Simulation 1:  
-- **Setup:** 3 independent arrival streams (Exp(10 mins))  
+- **Setup:** 3 independent arrival streams (EXPO(10 mins))  
 - **Stage 1:** 3 dedicated clerks with separate queues (UNIF(8, 10) mins service time)  
 - **Stage 2:** Shared clerk for all (UNIF(2.65, 3.33) mins service time)  
 - **Queue Type:** Separated by customer type at first stage
@@ -20,7 +20,7 @@ Both simulations are run for a **single replication of 5,000 minutes**.
 
 ## 📊 Objective
 
-To compare the **average** and **maximum** time in the system for all customer types and evaluate which system performs better under similar arrival and service conditions.
+To compare the **average**, **minimum** and **maximum** time in the system for all customer types and evaluate which system performs better under similar arrival and service conditions.
 
 ## 🧰 Requirements
 
