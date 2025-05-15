@@ -2,16 +2,6 @@
 
 This project models and compares two customer handling systems in an automotive license plate office using **Arena Simulation Software**. The aim is to analyze customer flow and identify which configuration offers better performance in terms of average and maximum time spent in the system.
 
-## 📁 Project Structure
-
-1. Simulation 1/
-    1. Model1.doe # Arena model for the original system (3 separate queues)
-    2. Simulation 1 Report.pdf # Output report after running Simulation 1
-2. Simulation 2/
-    1. Model2.doe # Arena model for the improved system (single queue, 3 flexible clerks)
-    2. Simulation 2 Report.pdf # Output report after running Simulation 2
-3. Analysis Report.docx # Summary comparing both simulations with conclusions
-
 ## 🧪 Simulation Overview
 
 ### Simulation 1:  
