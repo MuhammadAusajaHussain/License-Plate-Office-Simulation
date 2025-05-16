@@ -16,7 +16,7 @@ This project models and compares two customer handling systems in an automotive 
 - **Stage 2:** Same shared clerk as Simulation 1  
 - **Queue Type:** Single, shared queue for all customers
 
-Both simulations are run for a **single replication of 5,000 minutes**.
+Both simulations are run for a **single replication of 5,000 minutes** and the max arrival is kept at **80** per entity for simulations to avoid entity overflow.
 
 ## 📊 Objective
 
