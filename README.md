@@ -9,12 +9,14 @@ This project models and compares two customer handling systems in an automotive 
 - **Stage 1:** 3 dedicated clerks with separate queues (UNIF(8, 10) mins service time)  
 - **Stage 2:** Shared clerk for all (UNIF(2.65, 3.33) mins service time)  
 - **Queue Type:** Separated by customer type at first stage
+![image](https://github.com/user-attachments/assets/059584d7-a758-496d-a6f1-162f81bdc5e4)
 
 ### Simulation 2:  
 - **Setup:** Combined single queue  
 - **Stage 1:** 3 flexible clerks serving all customers  
 - **Stage 2:** Same shared clerk as Simulation 1  
 - **Queue Type:** Single, shared queue for all customers
+![image](https://github.com/user-attachments/assets/ad471b30-b03f-47d0-9b90-9dc10f3cf979)
 
 Both simulations are run for a **single replication of 5,000 minutes** and the max arrival is kept at **80** per entity for simulations to avoid entity overflow.
 
